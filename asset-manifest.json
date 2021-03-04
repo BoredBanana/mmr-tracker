@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mmr-tracker/static/css/main.3ef7bdb8.chunk.css",
+    "main.js": "/mmr-tracker/static/js/main.3b60a8fc.chunk.js",
+    "main.js.map": "/mmr-tracker/static/js/main.3b60a8fc.chunk.js.map",
+    "runtime-main.js": "/mmr-tracker/static/js/runtime-main.b7697111.js",
+    "runtime-main.js.map": "/mmr-tracker/static/js/runtime-main.b7697111.js.map",
+    "static/js/2.b2fab47a.chunk.js": "/mmr-tracker/static/js/2.b2fab47a.chunk.js",
+    "static/js/2.b2fab47a.chunk.js.map": "/mmr-tracker/static/js/2.b2fab47a.chunk.js.map",
+    "static/js/3.0c08bc32.chunk.js": "/mmr-tracker/static/js/3.0c08bc32.chunk.js",
+    "static/js/3.0c08bc32.chunk.js.map": "/mmr-tracker/static/js/3.0c08bc32.chunk.js.map",
+    "index.html": "/mmr-tracker/index.html",
+    "static/css/main.3ef7bdb8.chunk.css.map": "/mmr-tracker/static/css/main.3ef7bdb8.chunk.css.map",
+    "static/js/2.b2fab47a.chunk.js.LICENSE.txt": "/mmr-tracker/static/js/2.b2fab47a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7697111.js",
+    "static/js/2.b2fab47a.chunk.js",
+    "static/css/main.3ef7bdb8.chunk.css",
+    "static/js/main.3b60a8fc.chunk.js"
+  ]
+}
