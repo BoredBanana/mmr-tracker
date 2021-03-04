@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Ocarina",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Hero's Bow",
+        "progressive": [
+            "Hero's Bow",
+            "Large Quiver",
+            "Largest Quiver"
+        ],
+        "obtained": false
+    },
+    {
+        "name": "Fire Arrows",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Ice Arrows",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Light Arrows",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Bombs",
+        "progressive": [
+            "Bomb Bag",
+            "Big Bomb Bag",
+            "Biggest Bomb Bag"
+        ],
+        "obtained": false
+    },
+    {
+        "name": "Bombchus",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Deku Sticks",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Deku Nuts",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Beans",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Powder Keg",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Pictograph Box",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Lens of Truth",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Hookshot",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Great Fairy Sword",
+        "progressive": false,
+        "obtained": false
+    },
+    {
+        "name": "Bottle",
+        "progressive":  [
+            "Bottle 1",
+            "Bottle 2",
+            "Bottle 3",
+            "Bottle 4",
+            "Bottle 5",
+            "Bottle 6"
+        ],
+        "obtained": false
+    }
+]

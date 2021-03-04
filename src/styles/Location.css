@@ -1,0 +1,11 @@
+.unavailable {
+    color: red;
+}
+
+.available {
+    color: rgb(28, 170, 28);
+}
+
+.completed {
+    color: gray;
+}

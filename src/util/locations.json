@@ -1,0 +1,4493 @@
+[
+    {
+        "name" : "Misc",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Boss Blue Warp",
+                "requirements": [
+                    
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Starting Heart Container #1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Starting Heart Container #2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Starting Item",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Starting Shield",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Starting Song",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Starting Sword",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Bottle Catch",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Bottle: Big Poe",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bottle: Bug",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bottle: Deku Princess",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bottle: Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bottle: Fish",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bottle: Hot Spring Water",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bottle: Big Poe",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bottle: Mushroom",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bottle: Spring Water",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bottle: Zora Egg",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Beneath Clock Town",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Pre-Clock Town Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "South Clock Town",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Clock Tower Entrance",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Clock Town Scrub Trade",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },{
+
+                "name": "Postbox",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "South Clock Town Final Day Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "South Clock Town Straw Roof Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "North Clock Town",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Bombers' Hide and Seek",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Clock Town Map Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Deku Playground Any Day",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Deku Playground Three Days",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Keaton Quiz",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "North Clock Town Tree",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Old Lady",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Town Great Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Town Great Fairy Non-Human",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "East Clock Town",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Bombers' Hideout Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "East Clock Town Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Gorman",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Honey and Darling Any Day",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Honey and Darling Three Days",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Madame Aroma in Bar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Madame Aroma in Office",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Mayor",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Milk Bar Chateau",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Milk Bar Milk",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Postman's Freedom Reward",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Town Archery #1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Town Archery #2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Treasure Chest Game Deku",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Treasure Chest Game Goron",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Treasure Chest Game Human",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Treasure Chest Game Zora",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Stock Pot Inn",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Anju and Kafei",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Grandma Long Story",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Grandma Short Story",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Inn Guest Room Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Inn Reservation",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Inn Staff Room Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Midnight Meeting",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Toilet Hand",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "West Clock Town",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "All Night Mask Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bank Reward #1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bank Reward #2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bank Reward #3",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Big Bomb Bag Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bomb Bag Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bomb Shop 10 Bombchu",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bomb Shop 10 Bombs",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Curiosity Shop Blue Rupee",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Curiosity Shop Gold Rupee",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Curiosity Shop Purple Rupee",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Curiosity Shop Red Rupee",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Lottery",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Postman's Game",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Rosa Sisters",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swordsman's School",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Trading Post 10 Deku Nuts",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Trading Post 30 Arrows",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Trading Post 50 Arrows",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Trading Post Deku Stick",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Trading Post Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Trading Post Green Potion",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Trading Post Hero's Shield",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Trading Post Red Potion",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Laundry Pool",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Clock Town Stray Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Curiosity Shop Man #1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Curiosity Shop Man #2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Guru Guru",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Kafei",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Termina Field",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Astronomy Telescope",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bio Baba Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Business Scrub Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Dodongo Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Gossip Stones",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Kamaro",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Peahat Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Termina Field Grass Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Termina Field Grass Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Termina Field Pillar Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Termina Field Stump Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Termina Field Underwater Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Termina Grotto Cow #1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Termina Grotto Cow #2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Road to Southern Swamp",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Path to Swamp Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Path to Swamp Tree",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Map Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Archery #1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Archery #2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Map Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Southern Swamp",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Boat Archery",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Kotake",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Kotake Mushroom Sale",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Koume",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Mystery Woods Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Near Swamp Spider House Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pictograph Contest Good Photo",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pictograph Contest Standard Photo",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pictograph Contest Winner",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Music Statue",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Scrub Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Scrub Trade",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Gold Room Hive",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Gold Room Near Ceiling",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Gold Room Pillar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Gold Room Wall",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Main Room Jar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Main Room Lower Left Soft Soil",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Main Room Lower Right Soft Soil",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Main Room Near Ceiling",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Main Room Pillar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Main Room Upper Pillar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Main Room Upper Soft Soil",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Main Room Water",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Monument Room Crate 1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Monument Room Crate 2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Monument Room Lower Wall",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Monument Room On Monument",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Monument Room Torch",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Pot Room Behind Vines",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Pot Room Hive 1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Pot Room Hive 2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Pot Room Jar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Pot Room Pot 1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Pot Room Pot 2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Pot Room Wall",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Tree Room Grass 1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Tree Room Grass 2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Tree Room Hive",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Tree Room Tree 1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Tree Room Tree 2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Skulltula Tree Room Tree 3",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Spider House Reward",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Swamp Tourist Center Roof",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Witch Shop Blue Potion",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Witch Shop Green Potion",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Witch Shop Red Potion",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Deku Palace",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Bean Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Bean Man",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Butler",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Deku Palace West Garden",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Imprisoned Monkey",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Woodfall",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Behind Woodfall Owl Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Entrance to Woodfall Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Bridge Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Great Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Woodfall Temple",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Hero's Bow Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Odolwa Heart Container",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Boss Key Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Bridge Room Hive",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Compass Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Dark Room",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Deku Baba",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Entrance Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Entrance Platform",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Jar Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Main Room Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Main Room Switch",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Map Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Platform Room Hive",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Poison Water Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Pre-Boss Lower Right Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Pre-Boss Pillar Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Pre-Boss Upper Left Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Pre-Boss Upper Right Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Skulltula",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Woodfall Small Key Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Mountain Village",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Darmani",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Frog Choir",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Hungry Goron",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Mountain Smithy Day 1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Mountain Smithy Day 2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Mountain Spring Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Mountain Waterfall Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Twin Islands",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Goron Race",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Goron Racetrack Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Hot Spring Water Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Twin Islands Cave Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Twin Islands Underwater Ramp Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Goron Village",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Baby Goron",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Biggest Bomb Bag Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Goron Shop 10 Arrows",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Goron Shop 10 Bombs",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Goron Shop Red Potion",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Goron Village Ledge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Lens Cave Invisible Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Lens Cave Rock Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Lens of Truth Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Mountain Scrub Trade",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Powder Keg Challenge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Path to Snowhead",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Path to Snowhead Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Path to Snowhead Pillar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Snowhead",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Snowhead Great Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Snowhead Temple",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Fire Arrow Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Goht Heart Container",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Basement",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Block Room Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Boss Key Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Bridge Room Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Bridge Room Ledge Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Bridge Room Pillar Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Ceiling Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Compass Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Crate",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Dinolfos 1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Dinolfos 2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Ice Puzzle",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Icicle Room Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Icicle Room Wall",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Main Room Wall",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Map Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Map Room Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Map Room Ledge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Pillar Freezards",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Snow Room Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Snowhead Twin Block",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Milk Road",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Gorman Bros Milk Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Gorman Bros Race",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Map Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Romani Ranch Map Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Romani Ranch",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Aliens Defense",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Cremia",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Dog Race",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Doggy Racetrack Roof Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Grog",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ranch Cow #1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ranch Cow #2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ranch Cow #3",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Romani's Game",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Great Bay Coast",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Baby Zoras",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Fisherman Game",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Fisherman Pictograph",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Coast Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Coast Grotto Cow #1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Coast Grotto Cow #2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Coast Ledge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Lab Fish",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Mikau",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula 2nd Room Behind Skull 1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula 2nd Room Behind Skull 2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula 2nd Room Ceiling Edge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula 2nd Room Ceiling Plank",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula 2nd Room Jar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula 2nd Room Lower Pot",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula 2nd Room Upper Pot",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula 2nd Room Webbed Hole",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula 2nd Room Webbed Pot",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Colored Skulls Behind Picture",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Colored Skulls Ceiling Edge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Colored Skulls Chandelier 1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Colored Skulls Chandelier 2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Colored Skulls Chandelier 3",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Colored Skulls Pot",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Entrance Left Wall",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Entrance Right Wall",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Entrance Web",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Library Behind Bookcase 1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Library Behind Bookcase 2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Library Behind Picture",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Library Ceiling Edge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Library Hole Behind Cabinet",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Library Hole Behind Picture",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Library On Corner Bookshelf",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Storage Room Behind Boat",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Storage Room Behind Crate",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Storage Room Ceiling Web",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Storage Room Crate",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Skulltula Storage Room Jar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Spider House Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Spider House Day 1 Reward",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Spider House Day 2 Reward",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Spider House Day 3 Reward",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Map Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Zora Cape",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Beaver Race #1",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Beaver Race #2",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Great Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Zora Cape Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Zora Cape Ledge With Tree Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Zora Cape Ledge Without Tree Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Zora Cape Like-Like",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Zora Cape Underwater Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Zora Hall",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Bad Pictograph of Lulu",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Evan",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Good Pictograph of Lulu",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Lulu's Room Ledge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Scrub Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ocean Scrub Trade",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Zora Hall Stage Lights",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Zora Shop 10 Arrows",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Zora Shop Hero's Shield",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Zora Shop Red Potion",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Pirates' Fortress Exterior",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Pirates' Fortress Exterior Corner Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pirates' Fortress Exterior Log Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pirates' Fortress Exterior Sand Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Pirates' Fortress Sewer",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Pirates' Fortress Cage",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pirates' Fortress Cage Room Deep Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pirates' Fortress Cage Room Shallow Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pirates' Fortress Maze Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Pirates' Fortress Interior",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Hookshot Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pirates' Fortress Interior Guard Room Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pirates' Fortress Interior Lower Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pirates' Fortress Interior Tank Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pirates' Fortress Interior Upper Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Pinnacle Rock",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Pinnacle Rock Lower Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pinnacle Rock Upper Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Seahorses",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Great Bay Temple",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Great Bay Bio Babas",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Boss Key Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Compass Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Dexihands Jar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Entrance Torches",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Green Valve",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Ledge Jar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Map Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Pre-Boss Room Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Pre-Boss Room Underwater Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Seesaw Room",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Skulltula",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Small Key Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Underwater Barrel",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Water Control Room Underwater Bubble",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Waterwheel Room Lower",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Waterwheel Room Upper",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Whirlpool Barrel",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Great Bay Whirlpool Jar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Gyorg Heart Container",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ice Arrow Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Road to Ikana",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Invisible Soldier",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Path to Ikana Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Path to Ikana Pillar Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Ikana Graveyard",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Captain Keeta's Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Dampe Digging",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Day 1 Grave Bats",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Day 1 Grave Tablet",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ikana Graveyard Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Iron Knuckle Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Ikana Canyon",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Canyon Scrub Purchase",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Canyon Scrub Trade",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ikana Canyon Ledge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ikana Great Fairy",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Pamela's Father",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Poe Hut",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Secret Shrine Grotto",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Beneath the Well",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Cow Beneath the Well",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Mirror Shield Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Well Left Path Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Well Right Path Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Ikana Castle",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Ikana Castle Pillar",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Ikana King",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Stone Tower",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Inverted Stone Tower Left Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Inverted Stone Tower Middle Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Inverted Stone Tower Right Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Stone Tower Temple",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Giant's Mask Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Light Arrow Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Armor Room Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Basement Ledge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Boss Key Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Boss Warp",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Bridge Crystal",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Compass Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Death Armos",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Death Armos Maze Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Eyegore",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Eyegore Room Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Lava Room Fire Ring",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Lava Room Ledge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Map Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Mirror Sun Block",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Mirror Sun Switch",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Statue Eye",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Thin Bridge",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Underwater",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Updraft Fire Ring",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Updraft Frozen Eye",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Updraft Room Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Stone Tower Wizzrobe",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Twinmold Heart Container",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "Secret Shrine",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Secret Shrine Dinolfos Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Secret Shrine Final Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Secret Shrine Garo Master Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Secret Shrine Wart Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Secret Shrine Wizzrobe Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name" : "The Moon",
+        "requirements": [
+
+        ],
+        "conditionals": [
+
+        ],
+        "locations": [
+            {
+                "name": "Deku Trial Bonus",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Goron Trial Bonus",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Link Trial Bonus",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Link Trial Garo Master Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Link Trial Iron Knuckle Chest",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Majora Child",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            },
+            {
+                "name": "Zora Trial Bonus",
+                "requirements": [
+
+                ],
+                "conditionals": [
+
+                ],
+                "checked": false
+            }
+        ]
+    }
+
+]
