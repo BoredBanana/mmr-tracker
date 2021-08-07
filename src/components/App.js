@@ -1,49 +1,43 @@
-// components
-import React from 'react';
+// imports
+import React, {useState} from 'react';
 import LocationList from './LocationList.js';
 import ItemList from './ItemList';
 
 // json files
-import overworld from '../util/locations.json';
-import items from "../util/items.json";
+import locationFile from '../util/locations.json';
+import itemFile from "../util/items.json";
 
 // styles
 import '../styles/App.css';
 
-class App extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            items: items,
-            overworld: overworld
-        }
+function App() {
+    const [items, setItems] = useState(itemFile);
 
-        this.getItem = this.getItem.bind(this);
+    const [locations, setLocations] = useState(locationFile);
+
+    const setItemAcquired = (id, acquired) => {
+        let updatedItems = [...items];
+        updatedItems.find(item => id === item.ItemId).Acquired = acquired;
+        setItems(updatedItems);
     }
 
-    getItem(index) {
-        console.log("clicking " + index);
-        let updatedItems = this.state.items;
-        updatedItems[index].obtained = true;
-        this.setState({items: updatedItems});
+    const setLocationChecked = (id, event) => {
+        let updatedLocations = [...locations];
+        updatedLocations[id].Checked = event.button === 1
+        setLocations(updatedLocations);
     }
 
-    render() {
-        const overworld = this.state.overworld;
-        const items = this.state.items;
+    return (
+        <div onContextMenu={(e) => e.preventDefault()}>
+            <div className="locationTable">
+                <LocationList locations={locations} items={items} setLocationChecked={(id, checked) => setLocationChecked(id, checked)}/>
+            </div>
+            <div className="itemTable">
+                <ItemList items={items} setItemAcquired={(id, acquired) => setItemAcquired(id, acquired)}/>
+            </div> 
+        </div>
 
-        return (
-          <div>
-              <div className="locationTable">
-                  <LocationList overworld={overworld} items={items}/>
-              </div>
-              <div className="itemTable">
-                  <ItemList items={items} getItem={this.getItem}/>
-              </div>
-          </div>
-
-        );
-    }
+      );
 }
 
-export default App;
+export default App; 

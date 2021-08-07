@@ -1,22 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Item from './Item';
 
-class ItemList extends React.Component {
-    generateItems() {
-        const items = this.props.items;
+function ItemList(props) {
+    const generateItems = () => {
+        const items = props.items;
 
         return items.map((item, key) => 
             <ul key={key}>
-                <Item item={item} index={key} getItem={this.props.getItem}/>
+                <Item item={item} key={key} setItemAcquired={(id, acquired) => props.setItemAcquired(id, acquired)}/>
             </ul>
         );
     }
 
-    render() {
-        return <div>
-            {this.generateItems()}
+    
+    return (
+        <div>
+            {generateItems()}
         </div>
-    }
+    )
 }
 
 export default ItemList;

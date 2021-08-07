@@ -2,8 +2,8 @@ import React from 'react';
 
 import '../styles/Location.css'
 
-class Location extends React.Component {    
-    getAvailability() {
+function Location() {    
+    const getAvailability = () => {
         const currentItems = this.props.currentItems;
         const checked = this.props.location.checked;
         const requirements = this.props.location.requirements;
@@ -31,17 +31,12 @@ class Location extends React.Component {
 
     }
     
-    
-    render () {
-        const location = this.props.location;
-        const availability = this.getAvailability();
 
-        return (
-            <td className={availability}>
-                {location.name}
-            </td>
-        );
-    }
+    return (
+        <td className={availability}>
+            {props.location.LocationName}
+        </td>
+    );
 }
 
 export default Location;

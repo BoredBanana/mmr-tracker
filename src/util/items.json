@@ -1,97 +1,2462 @@
 [
-    {
-        "name": "Ocarina",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Hero's Bow",
-        "progressive": [
-            "Hero's Bow",
-            "Large Quiver",
-            "Largest Quiver"
-        ],
-        "obtained": false
-    },
-    {
-        "name": "Fire Arrows",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Ice Arrows",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Light Arrows",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Bombs",
-        "progressive": [
-            "Bomb Bag",
-            "Big Bomb Bag",
-            "Biggest Bomb Bag"
-        ],
-        "obtained": false
-    },
-    {
-        "name": "Bombchus",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Deku Sticks",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Deku Nuts",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Beans",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Powder Keg",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Pictograph Box",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Lens of Truth",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Hookshot",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Great Fairy Sword",
-        "progressive": false,
-        "obtained": false
-    },
-    {
-        "name": "Bottle",
-        "progressive":  [
-            "Bottle 1",
-            "Bottle 2",
-            "Bottle 3",
-            "Bottle 4",
-            "Bottle 5",
-            "Bottle 6"
-        ],
-        "obtained": false
-    }
+  {
+    "ItemId": 0,
+    "ItemName": "Deku Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 1,
+    "ItemName": "Bow Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 2,
+    "ItemName": "Fire Arrow",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 3,
+    "ItemName": "Ice Arrow",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 4,
+    "ItemName": "Light Arrow",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 5,
+    "ItemName": "Bomb Bag Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 6,
+    "ItemName": "Magic Bean",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 7,
+    "ItemName": "Powder Keg",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 8,
+    "ItemName": "Pictobox",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 9,
+    "ItemName": "Lens of Truth",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 10,
+    "ItemName": "Hookshot",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 11,
+    "ItemName": "Magic Power Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 12,
+    "ItemName": "Spin Attack",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 13,
+    "ItemName": "Magic Power Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 14,
+    "ItemName": "Double Defense",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 15,
+    "ItemName": "Great Fairy\u0027s Sword",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 16,
+    "ItemName": "Bottle with Red Potion",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 17,
+    "ItemName": "Bottle with Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 18,
+    "ItemName": "Bottle with Gold Dust",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 19,
+    "ItemName": "Empty Bottle",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 20,
+    "ItemName": "Empty Bottle",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 21,
+    "ItemName": "Bottle with Chateau Romani",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 22,
+    "ItemName": "Bombers\u0027 Notebook",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 23,
+    "ItemName": "Sword Upgrade",
+    "Acquired": true,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 24,
+    "ItemName": "Sword Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 25,
+    "ItemName": "Mirror Shield",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 26,
+    "ItemName": "Bow Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 27,
+    "ItemName": "Bow Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 28,
+    "ItemName": "Bomb Bag Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 29,
+    "ItemName": "Bomb Bag Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 30,
+    "ItemName": "Wallet Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 31,
+    "ItemName": "Wallet Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 32,
+    "ItemName": "Moon\u0027s Tear",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 33,
+    "ItemName": "Land Title Deed",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 34,
+    "ItemName": "Swamp Title Deed",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 35,
+    "ItemName": "Mountain Title Deed",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 36,
+    "ItemName": "Ocean Title Deed",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 37,
+    "ItemName": "Room Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 38,
+    "ItemName": "Letter to Kafei",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 39,
+    "ItemName": "Pendant of Memories",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 40,
+    "ItemName": "Letter to Mama",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 72,
+    "ItemName": "Postman\u0027s Hat",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 73,
+    "ItemName": "All-Night Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 74,
+    "ItemName": "Blast Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 75,
+    "ItemName": "Stone Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 76,
+    "ItemName": "Great Fairy\u0027s Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 77,
+    "ItemName": "Keaton Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 78,
+    "ItemName": "Bremen Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 79,
+    "ItemName": "Bunny Hood",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 80,
+    "ItemName": "Don Gero\u0027s Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 81,
+    "ItemName": "Mask of Scents",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 82,
+    "ItemName": "Romani\u0027s Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 83,
+    "ItemName": "Circus Leader\u0027s Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 84,
+    "ItemName": "Kafei\u0027s Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 85,
+    "ItemName": "Couple\u0027s Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 86,
+    "ItemName": "Mask of Truth",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 87,
+    "ItemName": "Kamaro\u0027s Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 88,
+    "ItemName": "Gibdo Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 89,
+    "ItemName": "Garo\u0027s Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 90,
+    "ItemName": "Captain\u0027s Hat",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 91,
+    "ItemName": "Giant\u0027s Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 92,
+    "ItemName": "Goron Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 93,
+    "ItemName": "Zora Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 94,
+    "ItemName": "Song of Healing",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 95,
+    "ItemName": "Song of Soaring",
+    "Acquired": true,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 96,
+    "ItemName": "Epona\u0027s Song",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 97,
+    "ItemName": "Song of Storms",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 98,
+    "ItemName": "Sonata of Awakening",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 99,
+    "ItemName": "Goron Lullaby",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 100,
+    "ItemName": "New Wave Bossa Nova",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 101,
+    "ItemName": "Elegy of Emptiness",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 102,
+    "ItemName": "Oath to Order",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 103,
+    "ItemName": "Poison swamp access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 104,
+    "ItemName": "Woodfall Temple access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 105,
+    "ItemName": "Woodfall clear",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 106,
+    "ItemName": "North access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 107,
+    "ItemName": "Snowhead Temple access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 108,
+    "ItemName": "Snowhead clear",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 109,
+    "ItemName": "Epona access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 110,
+    "ItemName": "West access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 111,
+    "ItemName": "Pirates\u0027 Fortress access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 112,
+    "ItemName": "Great Bay Temple access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 113,
+    "ItemName": "Great Bay clear",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 114,
+    "ItemName": "East access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 115,
+    "ItemName": "Ikana Canyon access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 116,
+    "ItemName": "Stone Tower Temple access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 117,
+    "ItemName": "Inverted Stone Tower Temple access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 118,
+    "ItemName": "Ikana clear",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 119,
+    "ItemName": "Explosives",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 120,
+    "ItemName": "Arrows",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 121,
+    "ItemName": "(Unused)",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 122,
+    "ItemName": "(Unused)",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 123,
+    "ItemName": "(Unused)",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 124,
+    "ItemName": "(Unused)",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 125,
+    "ItemName": "(Unused)",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 128,
+    "ItemName": "Woodfall Boss Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 129,
+    "ItemName": "Woodfall Small Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 132,
+    "ItemName": "Snowhead Boss Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 133,
+    "ItemName": "Snowhead Small Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 134,
+    "ItemName": "Snowhead Small Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 135,
+    "ItemName": "Snowhead Small Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 138,
+    "ItemName": "Great Bay Boss Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 139,
+    "ItemName": "Great Bay Small Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 142,
+    "ItemName": "Stone Tower Boss Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 143,
+    "ItemName": "Stone Tower Small Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 144,
+    "ItemName": "Stone Tower Small Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 145,
+    "ItemName": "Stone Tower Small Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 146,
+    "ItemName": "Stone Tower Small Key",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 147,
+    "ItemName": "Red Potion",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 148,
+    "ItemName": "Green Potion",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 149,
+    "ItemName": "Hero\u0027s Shield",
+    "Acquired": true,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 150,
+    "ItemName": "Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 155,
+    "ItemName": "Blue Potion",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 156,
+    "ItemName": "Red Potion",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 157,
+    "ItemName": "Green Potion",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 162,
+    "ItemName": "Red Potion",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 163,
+    "ItemName": "Hero\u0027s Shield",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 165,
+    "ItemName": "Red Potion",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 166,
+    "ItemName": "Bottle: Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 167,
+    "ItemName": "Bottle: Deku Princess",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 168,
+    "ItemName": "Bottle: Fish",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 169,
+    "ItemName": "Bottle: Bug",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 170,
+    "ItemName": "Bottle: Poe",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 171,
+    "ItemName": "Bottle: Big Poe",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 172,
+    "ItemName": "Bottle: Spring Water",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 173,
+    "ItemName": "Bottle: Hot Spring Water",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 174,
+    "ItemName": "Bottle: Zora Egg",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 175,
+    "ItemName": "Bottle: Mushroom",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 219,
+    "ItemName": "Magic Bean",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 261,
+    "ItemName": "One Mask",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 262,
+    "ItemName": "Two Masks",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 263,
+    "ItemName": "Three Masks",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 264,
+    "ItemName": "Four Masks",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 265,
+    "ItemName": "Moon Access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 270,
+    "ItemName": "Fierce Deity\u0027s Mask",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 274,
+    "ItemName": "Sword Upgrade",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 275,
+    "ItemName": "Hero\u0027s Shield",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 278,
+    "ItemName": "Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 279,
+    "ItemName": "Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 280,
+    "ItemName": "Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 281,
+    "ItemName": "Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 282,
+    "ItemName": "Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 283,
+    "ItemName": "Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 284,
+    "ItemName": "Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 285,
+    "ItemName": "Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 286,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 287,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 288,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 289,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 290,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 291,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 292,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 293,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 294,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 295,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 296,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 297,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 298,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 299,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 300,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 301,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 302,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 303,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 304,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 305,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 306,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 307,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 308,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 309,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 310,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 311,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 312,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 313,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 314,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 315,
+    "ItemName": "Swamp Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 316,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 317,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 318,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 319,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 320,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 321,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 322,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 323,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 324,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 325,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 326,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 327,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 328,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 329,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 330,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 331,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 332,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 333,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 334,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 335,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 336,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 337,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 338,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 339,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 340,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 341,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 342,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 343,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 344,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 345,
+    "ItemName": "Ocean Skulltula Spirit",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 346,
+    "ItemName": "Clock Town Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 347,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 348,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 349,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 350,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 351,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 352,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 353,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 354,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 355,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 356,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 357,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 358,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 359,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 360,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 361,
+    "ItemName": "Woodfall Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 362,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 363,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 364,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 365,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 366,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 367,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 368,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 369,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 370,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 371,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 372,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 373,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 374,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 375,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 376,
+    "ItemName": "Snowhead Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 377,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 378,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 379,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 380,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 381,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 382,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 383,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 384,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 385,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 386,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 387,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 388,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 389,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 390,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 391,
+    "ItemName": "Great Bay Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 392,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 393,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 394,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 395,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 396,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 397,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 398,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 399,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 400,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 401,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 402,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 403,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 404,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 405,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 406,
+    "ItemName": "Stone Tower Stray Fairy",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 409,
+    "ItemName": "Chateau Romani",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 410,
+    "ItemName": "Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 416,
+    "ItemName": "Magic Bean",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 417,
+    "ItemName": "Green Potion",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 418,
+    "ItemName": "Blue Potion",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 420,
+    "ItemName": "Milk",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 432,
+    "ItemName": "Seahorse",
+    "Acquired": false,
+    "IsFakeItem": false
+  },
+  {
+    "ItemId": 1069,
+    "ItemName": "GossipTerminaSouth",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1070,
+    "ItemName": "GossipSwampPotionShop",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1071,
+    "ItemName": "GossipMountainSpringPath",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1072,
+    "ItemName": "GossipMountainPath",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1073,
+    "ItemName": "GossipOceanZoraGame",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1074,
+    "ItemName": "GossipCanyonRoad",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1075,
+    "ItemName": "GossipCanyonDock",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1076,
+    "ItemName": "GossipCanyonSpiritHouse",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1077,
+    "ItemName": "GossipTerminaMilk",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1078,
+    "ItemName": "GossipTerminaWest",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1079,
+    "ItemName": "GossipTerminaNorth",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1080,
+    "ItemName": "GossipTerminaEast",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1081,
+    "ItemName": "GossipRanchTree",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1082,
+    "ItemName": "GossipRanchBarn",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1083,
+    "ItemName": "GossipMilkRoad",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1084,
+    "ItemName": "GossipOceanFortress",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1085,
+    "ItemName": "GossipSwampRoad",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1086,
+    "ItemName": "GossipTerminaObservatory",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1087,
+    "ItemName": "GossipRanchCuccoShack",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1088,
+    "ItemName": "GossipRanchRacetrack",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1089,
+    "ItemName": "GossipRanchEntrance",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1090,
+    "ItemName": "GossipCanyonRavine",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1091,
+    "ItemName": "GossipMountainSpringFrog",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1092,
+    "ItemName": "GossipSwampSpiderHouse",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1093,
+    "ItemName": "GossipTerminaGossipLarge",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1094,
+    "ItemName": "GossipTerminaGossipGuitar",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1095,
+    "ItemName": "GossipTerminaGossipPipes",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1096,
+    "ItemName": "GossipTerminaGossipDrums",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1097,
+    "ItemName": "Magic Meter",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1098,
+    "ItemName": "2 Snowhead Keys",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1099,
+    "ItemName": "1 Snowhead Key",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1100,
+    "ItemName": "1 Stone Tower Key",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1101,
+    "ItemName": "2 Stone Tower Keys",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1102,
+    "ItemName": "Any Bottle",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1103,
+    "ItemName": "3 Stone Tower Keys",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1104,
+    "ItemName": "Any Sword",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1105,
+    "ItemName": "Any Bomb Bag",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1106,
+    "ItemName": "Swamp Spiderhouse Tree Room",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1107,
+    "ItemName": "Ocean Skulltulas",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1108,
+    "ItemName": "Any Red Potion",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1109,
+    "ItemName": "Any Milk",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1110,
+    "ItemName": "Any Green Potion",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1111,
+    "ItemName": "Any Blue Potion",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1112,
+    "ItemName": "Any Magic Bean",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1113,
+    "ItemName": "Water for Magic Bean",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1114,
+    "ItemName": "2 Bottles",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1115,
+    "ItemName": "Any Wallet",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1116,
+    "ItemName": "WFT 2nd Floor Skip",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1117,
+    "ItemName": "Scarecrow\u0027s Song",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1118,
+    "ItemName": "Poisoned Water as Zora",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1119,
+    "ItemName": "Deku Guard Skip",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1120,
+    "ItemName": "Lensless Jumping",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1121,
+    "ItemName": "Limitless Magic Beans",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1122,
+    "ItemName": "Bomber Guard Skip",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1123,
+    "ItemName": "Postman without Bunny Hood",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1124,
+    "ItemName": "Quest Item Extra Storage",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1125,
+    "ItemName": "Dog Race Luck",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1126,
+    "ItemName": "Deku Stick Fighting",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1127,
+    "ItemName": "Brute Force OSH Code",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1128,
+    "ItemName": "Lensless Walking",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1129,
+    "ItemName": "Kill Deku Shrine Big Octo",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1130,
+    "ItemName": "Stun Keeta with Bombs",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1131,
+    "ItemName": "ISTT Hookshot to Eyegore",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1132,
+    "ItemName": "ISTT Updraft as Human",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1133,
+    "ItemName": "Deku Palace Bean Skip",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1134,
+    "ItemName": "Ikana Castle Falling Ceiling Skip",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1135,
+    "ItemName": "Path to Snowhead without Magic",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1136,
+    "ItemName": "Goron Fence Jump",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1137,
+    "ItemName": "GBT Fireless",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1138,
+    "ItemName": "Ikana Graveyard Access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1139,
+    "ItemName": "Ikana Canyon Iceless",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1140,
+    "ItemName": "Climb Stone Tower with One Transformation",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1141,
+    "ItemName": "Shoot Twinmold",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1142,
+    "ItemName": "Fight Twinmold",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1143,
+    "ItemName": "ISTT Eyegore Access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1144,
+    "ItemName": "SHT Zora Jumps",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1145,
+    "ItemName": "SHT Pillar Skip",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1146,
+    "ItemName": "GBT Iceless Boss Key",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1147,
+    "ItemName": "GBT Fireless Boss Key",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1148,
+    "ItemName": "ISTT Early Boss Key",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1149,
+    "ItemName": "Swim to Zora Hall as Human",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1150,
+    "ItemName": "Lensless Climbing",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1151,
+    "ItemName": "Pinnacle Rock without Seahorse",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1152,
+    "ItemName": "Pinnacle Rock Access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1153,
+    "ItemName": "PF Guard Room Rear Entry",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1154,
+    "ItemName": "Jump Slash through One Sided Geometry",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1155,
+    "ItemName": "Avoid Swamp Tree Bat",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1156,
+    "ItemName": "Goron Pound onto Ledges",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1157,
+    "ItemName": "Zora Hall Scrub Ledge Climb",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1158,
+    "ItemName": "Long Jump",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1159,
+    "ItemName": "Jump Slash Town Tingle",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1160,
+    "ItemName": "Bowless Aliens",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1161,
+    "ItemName": "Guess Bomber Code",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1162,
+    "ItemName": "Exit Ocean Spider House without Goron",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1163,
+    "ItemName": "Exit Ocean Spider House",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1164,
+    "ItemName": "Lensless Walls/Ceilings",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1165,
+    "ItemName": "Night Inn Access",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1166,
+    "ItemName": "Lensless Chests",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1167,
+    "ItemName": "Clip through Bombers\u0027 Hideout Balloon from behind",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1168,
+    "ItemName": "Termina Stump with No Items",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1169,
+    "ItemName": "Bio Baba Hive Luck",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1170,
+    "ItemName": "Gainer",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1171,
+    "ItemName": "Close Cows",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1172,
+    "ItemName": "Milk Multiple Cows",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1173,
+    "ItemName": "Ocean Skulltulas without Fire Arrows",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1174,
+    "ItemName": "Pass through false walls",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1175,
+    "ItemName": "SHT Jump to Stray Fairies",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1176,
+    "ItemName": "Jump along invisible platforms",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1177,
+    "ItemName": "Enter Snowhead Temple",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1178,
+    "ItemName": "GBT Iceless",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1179,
+    "ItemName": "GBT Reverse Water Direction",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1180,
+    "ItemName": "Take Damage",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1181,
+    "ItemName": "Hit switches through walls",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1182,
+    "ItemName": "STT Ice Platform",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1183,
+    "ItemName": "Fighting",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1184,
+    "ItemName": "Inn Balcony as Zora",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1185,
+    "ItemName": "Poisoned Water as Goron",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1186,
+    "ItemName": "Lullaby Skip",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1187,
+    "ItemName": "Any Shield",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1188,
+    "ItemName": "OSH Storage Room Clip",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1189,
+    "ItemName": "Any Healing Potion",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1190,
+    "ItemName": "Cross Poisoned Water",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1191,
+    "ItemName": "Use Fire Arrow",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1192,
+    "ItemName": "Use Ice Arrow",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1193,
+    "ItemName": "Use Light Arrow",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1194,
+    "ItemName": "Any B Sword",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1195,
+    "ItemName": "Zora Jar Game with Explosives",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1196,
+    "ItemName": "Faster Bank",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1197,
+    "ItemName": "Keaton Grass Small Spin",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1198,
+    "ItemName": "Large Quiver",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1199,
+    "ItemName": "Largets Quiver",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1200,
+    "ItemName": "Big Bomb Bag",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1201,
+    "ItemName": "Biggest Bomb Bag",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1202,
+    "ItemName": "Razor Sword",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1203,
+    "ItemName": "Gilded Sword",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1204,
+    "ItemName": "Giant Wallet",
+    "Acquired": false,
+    "IsFakeItem": true
+  },
+  {
+    "ItemId": 1205,
+    "ItemName": "Doubled Magic Meter",
+    "Acquired": false,
+    "IsFakeItem": true
+  }
 ]

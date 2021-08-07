@@ -1,87 +1,90 @@
-import React from 'react';
-import Region from './Region';
-import Location from './Location';
+import React, {useState} from 'react';
 
+import areas from '../util/areas.json';
 
-import '../styles/LocationList.css';
+import '../styles/Location.css'
 
-class LocationList extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            selectedRegion: -1
-        };
-    }
+function LocationList(props) {
 
-    selectRegion(index) {
-        this.setState({ selectedRegion: index });
-    }
+    const [region, setRegion] = useState(null);
 
-    setCheck(index) {
-        let updatedOverworld = this.props.overworld;
-        updatedOverworld[this.state.selectedRegion].locations[index].checked = !updatedOverworld[this.state.selectedRegion].locations[index].checked
-
-        this.setState({ overworld: updatedOverworld });
-    }
-
-    getRegions() {
-        let overworld = this.props.overworld;
-        return overworld.map((region, key) =>
-            <tr key = {key} onClick={() => this.selectRegion(key)}>
-                <Region region = {region}/>
+    const getOverworldLocations = () => {
+        return areas.map((currentRegion, key) => 
+            <tr key = {key} onClick = {() => setRegion(key)}>
+                <td>
+                    {currentRegion.Name}
+                </td>
             </tr>
         );
     }
 
-    getLocations() {
-        const regionIndex = this.state.selectedRegion;
-        const locations = this.props.overworld[regionIndex].locations;
+    const getRegionLocations = () => {
+        let locations = [];
+
+        areas[region].LocationIdInOrder.forEach(id => {
+            locations.push(props.locations.find(element => id === element.LocationId))
+        });
 
         return locations.map((location, key) => 
-            <tr className="location" key = {key} onClick = {() => this.setCheck(key)}>
-                <Location location = {location} currentItems = {[]} />
-            </tr>
+        <tr className="location" key={key} onMouseDown={(location, e) => props.setLocationChecked(location, e)}>
+            <td className={checkAvailability(location)}>
+                {location.LocationName}
+            </td>
+        </tr>
         );
     }
-    
-    render () {
-        const overworld = this.props.overworld;
-        let contents;
-        let header;
 
-        if(this.state.selectedRegion === -1) {
-            contents = this.getRegions();
-            header = "Termina";
-        }
-        else {
-            contents = this.getLocations();
-            header = overworld[this.state.selectedRegion].name;
+    const checkAvailability = (location) => {
+        if(location.Checked) {
+            return "completed";
         }
 
-        return (
-            <div className="locationList">
-                <div className="tableHeader">
-                    {header}
-                </div>
+        let availability = location.RequiredItemIds[0] === undefined && location.ConditionalItemIds[0] === undefined;
 
-                <div className="tableBody">
-                    <table>
-                        <tbody>
-                            {this.state.selectedRegion !== -1 &&
-                                <tr className="non_location" onClick = {() => this.selectRegion(-1)}>
-                                    <td>Termina</td>
-                                </tr>
-                            }
-                            
-                            {contents}
-                        </tbody>
-                        
-                    </table>
-                </div>
+        if(!availability) {
+            availability = location.RequiredItemIds.every(id => props.items.find(element => id === element.ItemId).Acquired);
+
+            availability = location.ConditionalItemIds.some(conditionals => 
+                conditionals.every(id => props.items.find(element => id === element.ItemId).Acquired));            
+        }
+
+        return (availability) ? "available" : "unavailable"
+    }
+
+
+    let header;
+    let displayContents;
+    if(region === null) {
+        displayContents = getOverworldLocations();
+        header = "Termina";
+    }
+    else {
+        displayContents = getRegionLocations();
+        header = areas[region].Name;
+    }
+
+    return (
+        <div className="locationList">
+            <div className="tableHeader">
+                {header}
             </div>
-        );
-    }
 
+            <div className="tableBody">
+                <table>
+                    <tbody>
+                        {region !== null &&
+                            <tr className="non_location" onClick = {() => setRegion(null)}>
+                                <td>Termina</td>
+                            </tr>
+                        }
+                        
+                        {displayContents}
+                    </tbody>
+                    
+                </table>
+            </div>
+        </div>
+    )
 }
 
 export default LocationList;
