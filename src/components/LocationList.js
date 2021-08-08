@@ -26,7 +26,7 @@ function LocationList(props) {
         });
 
         return locations.map((location, key) => 
-        <tr className="location" key={key} onMouseDown={(location, e) => props.setLocationChecked(location, e)}>
+        <tr className="location" key={key} onMouseDown={(e) => props.setLocationChecked(location.LocationId, e.button === 0)}>
             <td className={checkAvailability(location)}>
                 {location.LocationName}
             </td>
@@ -39,14 +39,17 @@ function LocationList(props) {
             return "completed";
         }
 
-        let availability = location.RequiredItemIds[0] === undefined && location.ConditionalItemIds[0] === undefined;
-
-        if(!availability) {
-            availability = location.RequiredItemIds.every(id => props.items.find(element => id === element.ItemId).Acquired);
-
-            availability = location.ConditionalItemIds.some(conditionals => 
-                conditionals.every(id => props.items.find(element => id === element.ItemId).Acquired));            
+        let availability = location.RequiredItemIds.length === 0 || 
+                           location.RequiredItemIds.every(id => props.items.find(element => id === element.ItemId).Acquired);
+        
+        availability = (availability && location.ConditionalItemIds.length === 0)  || 
+                       location.ConditionalItemIds.some(conditionals => 
+                            conditionals.every(id => props.items.find(element => id === element.ItemId).Acquired)); 
+            
+        if(location.LocationName === "Postbox") {
+            console.log(availability);
         }
+        
 
         return (availability) ? "available" : "unavailable"
     }

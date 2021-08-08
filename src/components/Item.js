@@ -1,19 +1,26 @@
 import React, {useState, useEffect} from 'react';
 
+import "../styles/Item.css"
+
 function Item(props) {
     const [image, setImage] = useState(null);
+
     useEffect(() => {
-            setImage(require("../images/items/" + props.item.ItemName + ".png"));
-    }, [props.item]);
+        import("../images/items/" + props.item.ItemName.replaceAll("Bottle: ", "") + ".png").then(image => {
+            setImage(image.default);
+        });
+    });
 
     const handleClickEvent = (click) => {
         props.setItemAcquired(props.item.ItemId, click.button === 0)
     }
 
+    const acquiredClass = () => {
+        return (props.item.Acquired) ? "acquired" : "not_acquired";
+    }
+
     return (
-        <p onMouseDown={handleClickEvent}>
-            {props.item.ItemName} - {String(props.item.Acquired)}
-        </p>
+        <img className={acquiredClass()} alt="image" src={image} onMouseDown={handleClickEvent}/>
     )
 }
 

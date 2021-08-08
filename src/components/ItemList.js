@@ -34,7 +34,6 @@ function ItemList(props) {
                 return item;
             })
         );
-        console.log(itemArray);
         return itemArray;
     }
 

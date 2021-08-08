@@ -23,9 +23,9 @@ function App() {
         }
     }
 
-    const setLocationChecked = (id, event) => {
+    const setLocationChecked = (id, checked) => {
         let updatedLocations = [...locations];
-        updatedLocations[id].Checked = event.button === 1
+        updatedLocations.find(location => location.LocationId === id).Checked = checked
         setLocations(updatedLocations);
     }
 
