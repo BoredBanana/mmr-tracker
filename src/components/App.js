@@ -16,9 +16,11 @@ function App() {
     const [locations, setLocations] = useState(locationFile);
 
     const setItemAcquired = (id, acquired) => {
-        let updatedItems = [...items];
-        updatedItems.find(item => id === item.ItemId).Acquired = acquired;
-        setItems(updatedItems);
+        if(id !== null) {
+            let updatedItems = [...items];
+            updatedItems.find(item => id === item.ItemId).Acquired = acquired;
+            setItems(updatedItems);
+        }
     }
 
     const setLocationChecked = (id, event) => {
