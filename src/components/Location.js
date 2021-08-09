@@ -1,39 +1,38 @@
 import React from 'react';
 
-import '../styles/Location.css'
+import '../styles/Location.css';
 
-function Location() {    
-    const getAvailability = () => {
-        const currentItems = this.props.currentItems;
-        const checked = this.props.location.checked;
-        const requirements = this.props.location.requirements;
-        const conditionals = this.props.location.conditionals;
+function Location(props) {
 
-        let availability = requirements[0] === undefined && conditionals[0] === undefined;
+    const findItem = (itemId) => {
+        return props.items.find(item => item.ItemId === itemId);
+    }
 
-        for(let item of requirements) {
-            if(!currentItems.includes(item)) {
-                availability = false;
-                break;
-            }
-            availability = true;
-        }
+    const hasRequiredItems = (itemArray) => {
+        return itemArray.every(itemId => findItem(itemId).Acquired);
+    }
 
-        if(checked) {
+    const checkAvailability = () => {
+        if(props.location.Checked){
             return "completed";
         }
-        else if(availability) {
+
+        let requirementsSatisfied = hasRequiredItems(props.location.RequiredItemIds);
+        let conditionalsSatisfied = props.location.ConditionalItemIds.length === 0 ||
+            props.location.ConditionalItemIds.some(conditionalArray => hasRequiredItems(conditionalArray));
+        
+        let availability = requirementsSatisfied && conditionalsSatisfied;
+
+        if(availability) {
             return "available";
         }
         else {
             return "unavailable"
         }
-
     }
-    
 
     return (
-        <td className={availability}>
+        <td className={checkAvailability()}>
             {props.location.LocationName}
         </td>
     );

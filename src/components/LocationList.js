@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Location from './Location.js';
 
 import areas from '../util/areas.json';
 
@@ -8,61 +9,41 @@ function LocationList(props) {
 
     const [region, setRegion] = useState(null);
 
-    const getOverworldLocations = () => {
-        return areas.map((currentRegion, key) => 
-            <tr key = {key} onClick = {() => setRegion(key)}>
+    const findLocation = (locationId) => {
+        return props.locations.find(location => location.LocationId === locationId);
+    }
+
+    const getOverworldRegions = () => {
+        return areas.map((area, key) => 
+            <tr key={key} onClick={() => setRegion(key)}>
                 <td>
-                    {currentRegion.Name}
+                    {area.Name}
                 </td>
             </tr>
         );
     }
 
-    const getRegionLocations = () => {
-        let locations = [];
+    const getRegionLocations = (locationIdArray) => {
+        let locations = locationIdArray.map(locationId => findLocation(locationId));
 
-        areas[region].LocationIdInOrder.forEach(id => {
-            locations.push(props.locations.find(element => id === element.LocationId))
-        });
+        return locations.map((location, key) => {
+            return (<tr className="location" key={key} 
+                onMouseDown={e => props.setLocationChecked(location.LocationId, e.button === 0)}>
 
-        return locations.map((location, key) => 
-        <tr className="location" key={key} onMouseDown={(e) => props.setLocationChecked(location.LocationId, e.button === 0)}>
-            <td className={checkAvailability(location)}>
-                {location.LocationName}
-            </td>
-        </tr>
-        );
+                <Location location={location} items={props.items}/>
+
+            </tr>
+        )})
     }
-
-    const checkAvailability = (location) => {
-        if(location.Checked) {
-            return "completed";
-        }
-
-        let availability = location.RequiredItemIds.length === 0 || 
-                           location.RequiredItemIds.every(id => props.items.find(element => id === element.ItemId).Acquired);
-        
-        availability = (availability && location.ConditionalItemIds.length === 0)  || 
-                       location.ConditionalItemIds.some(conditionals => 
-                            conditionals.every(id => props.items.find(element => id === element.ItemId).Acquired)); 
-            
-        if(location.LocationName === "Postbox") {
-            console.log(availability);
-        }
-        
-
-        return (availability) ? "available" : "unavailable"
-    }
-
 
     let header;
     let displayContents;
     if(region === null) {
-        displayContents = getOverworldLocations();
+        displayContents = getOverworldRegions();
         header = "Termina";
     }
     else {
-        displayContents = getRegionLocations();
+        displayContents = getRegionLocations(areas[region].LocationIdInOrder);
         header = areas[region].Name;
     }
 

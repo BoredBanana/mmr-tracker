@@ -1,6 +1,6 @@
 import React from 'react';
 import Region from './Region';
-import Location from './Location';
+import Location from './Location_old';
 
 
 import '../styles/LocationList.css';
