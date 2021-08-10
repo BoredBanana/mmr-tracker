@@ -4,6 +4,11 @@ import Item from './Item';
 import itemOrder from '../util/Item Display Order.json';
 
 function ItemList(props) {
+    const findItem = (itemId) => {
+        return props.items.find(item => item.ItemId === itemId);
+    }
+
+
     const generateItemTable = () => {
         const items = generateItemArray();
 
@@ -21,7 +26,7 @@ function ItemList(props) {
     const generateItemArray = () => {
         const itemArray = itemOrder.map(array => 
             array.map(itemId => {
-                let item = props.items.find(item => itemId === item.ItemId);
+                let item = findItem(itemId);
                 if(typeof item === 'undefined') {
                     item = {
                         "ItemId": null,

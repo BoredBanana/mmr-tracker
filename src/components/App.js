@@ -19,8 +19,31 @@ function App() {
         if(id !== null) {
             let updatedItems = [...items];
             updatedItems.find(item => id === item.ItemId).Acquired = acquired;
+
+            updatedItems.forEach(item => {
+                if(item.IsFakeItem) {
+                    item.Acquired = checkRequirements(item);
+                }
+            })
+
             setItems(updatedItems);
         }
+    }
+
+    const checkRequirements = (item) => {
+        let requirementsSatisfied = hasRequiredItems(item.RequiredItemIds);
+        let conditionalsSatisfied = item.ConditionalItemIds.length === 0 ||
+            item.ConditionalItemIds.some(conditionalArray => hasRequiredItems(conditionalArray));
+        
+        return requirementsSatisfied && conditionalsSatisfied;
+    }
+
+    const findItem = (itemId) => {
+        return items.find(item => item.ItemId === itemId);
+    }
+
+    const hasRequiredItems = (itemArray) => {
+        return itemArray.every(itemId => findItem(itemId).Acquired);
     }
 
     const setLocationChecked = (id, checked) => {
