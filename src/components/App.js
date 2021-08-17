@@ -1,7 +1,7 @@
 // imports
 import React from 'react';
 import LocationList from './LocationList.js';
-// import ItemList from './ItemList';
+import ItemList from './ItemList';
 
 // contexts
 import ItemContextProvider from '../contexts/ItemContext.js';
@@ -9,7 +9,6 @@ import LocationContextProvider from '../contexts/LocationContext.js';
 
 // styles
 import '../styles/App.css';
-
 
 const App = () => {
     return (
@@ -19,9 +18,9 @@ const App = () => {
                         <div className="locationTable">
                             <LocationList/>
                         </div>
-                        {/* <div className="itemTable">
-                            <ItemList items={items} setItemAcquired={(id, acquired) => setItemAcquired(id, acquired)}/>
-                        </div>  */}
+                        <div className="itemTable">
+                            <ItemList />
+                        </div>
                 </ItemContextProvider>
             </LocationContextProvider>
         </div>

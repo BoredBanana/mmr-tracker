@@ -1,6 +1,6 @@
 // import components and React
 import React, { useState } from 'react';
-import Location from './Location_new.js';
+import Location from './Location.js';
 
 // import helper array of area names in Majora's Mask
 import areas from '../util/areas.json';

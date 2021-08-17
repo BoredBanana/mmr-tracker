@@ -1,25 +1,19 @@
 export const locationReducer = (state, action) => {
-    if(action.type === 'CHECK') {
-        return state.map((location) => 
-            location.LocationId === action.id
-                ? {
-                      ...location,
-                      Checked: true
-                  }
-                : location
-        );
-    }
-    else if(action.type === 'UNCHECK') {
-        return state.map((location) => 
-            location.LocationId === action.id
-                ? {
-                      ...location,
-                      Checked: false
-                  }
-                : location
-        );
-    }
-    else {
-        console.log("how");
-    }
+    return state.map((location) => {
+        if(location.LocationId === action.id) {
+            switch(action.type) {
+                case 'CHECK':
+                    location.Checked = true;
+                    break;
+                case 'UNCHECK':
+                    location.Checked = false;
+                    break;
+                default:
+                    throw new Error('Action Type ' + action.type + ' does not exist in itemReducer');
+            }
+        }
+
+        return location;
+    });
+
 }
