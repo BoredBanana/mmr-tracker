@@ -1,11 +1,15 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import Item from './Item';
 
 import itemOrder from '../util/Item Display Order.json';
+import ItemContext from '../contexts/ItemContext';
 
 function ItemList(props) {
+    const [items, setItems] = useContext(ItemContext);
+
+
     const findItem = (itemId) => {
-        return props.items.find(item => item.ItemId === itemId);
+        return items.find(item => item.ItemId === itemId);
     }
 
 

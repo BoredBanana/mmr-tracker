@@ -4,6 +4,7 @@
 }
 
 .tableHeader {
+    font-weight: bold;
     height: 3%;
     border: 1px solid black;
 }
@@ -22,6 +23,7 @@
 }
 
 table, tr {
+    font-weight: bold;
     width: 100%;
     border: 1px solid black;
     border-collapse: collapse;
