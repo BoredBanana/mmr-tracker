@@ -20,6 +20,9 @@ export const itemReducer = (state, action) => {
             item.Acquired = requirementsSatisfied && conditionalsSatisfied;
         }
 
+        if(item.ItemId === 1192 || item.ItemId === 114 || item.ItemId === 10 || item.ItemId === 1138 || item.ItemId === 88 || item.ItemId === 89)
+            console.log(item);
+
         return item;
     });
 }

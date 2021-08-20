@@ -2,6 +2,7 @@
 import React from 'react';
 import LocationList from './LocationList.js';
 import ItemList from './ItemList';
+import FileInput from './FileInput.js';
 
 // contexts
 import ItemContextProvider from '../contexts/ItemContext.js';
@@ -15,12 +16,13 @@ const App = () => {
         <div onContextMenu={(e) => e.preventDefault()}>
             <LocationContextProvider>
                 <ItemContextProvider>
-                        <div className="locationTable">
-                            <LocationList/>
-                        </div>
-                        <div className="itemTable">
-                            <ItemList />
-                        </div>
+                    <FileInput />
+                    <div className="locationTable">
+                        <LocationList/>
+                    </div>
+                    <div className="itemTable">
+                        <ItemList />
+                    </div>
                 </ItemContextProvider>
             </LocationContextProvider>
         </div>
