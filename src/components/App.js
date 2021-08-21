@@ -17,9 +17,9 @@ const App = () => {
             <LocationContextProvider>
                 <ItemContextProvider>
                     <FileInput />
-                    <div className="locationTable">
+                    {/* <div className="locationTable">
                         <LocationList/>
-                    </div>
+                    </div> */}
                     <div className="itemTable">
                         <ItemList />
                     </div>

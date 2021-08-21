@@ -7,6 +7,8 @@ export const itemReducer = (state, action) => {
         case 'UNCHECK':
             clickedItem.Acquired = false;
             break;
+        case 'SET_ITEMS':
+            return [...action.items];
         default:
             console.log('Action Type ' + action.type + ' does not exist in itemReducer');
     }
