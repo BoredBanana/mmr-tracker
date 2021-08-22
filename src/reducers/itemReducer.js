@@ -13,22 +13,30 @@ export const itemReducer = (state, action) => {
             console.log('Action Type ' + action.type + ' does not exist in itemReducer');
     }
 
-    return state.map((item) => {
+    return newItemArray(state);
+}
+
+const newItemArray = (array) => {
+    let items = [];
+    let recalculate = false;
+    array.forEach(item => {
         if(item.IsFakeItem) {
-            let requirementsSatisfied = !item.hasOwnProperty('RequiredItemIds') || hasRequiredItems(item.RequiredItemIds, state);
+            let requirementsSatisfied = !item.hasOwnProperty('RequiredItemIds') || hasRequiredItems(item.RequiredItemIds, array);
             let conditionalsSatisfied = !item.hasOwnProperty('ConditionalItemIds') || item.ConditionalItemIds.length === 0 ||
-                item.ConditionalItemIds.some(conditionalArray => hasRequiredItems(conditionalArray, state));
+                item.ConditionalItemIds.some(conditionalArray => hasRequiredItems(conditionalArray, array));
             
+            if(!recalculate && requirementsSatisfied && conditionalsSatisfied && !item.Acquired) {
+                recalculate = true;
+            }
+
             item.Acquired = requirementsSatisfied && conditionalsSatisfied;
         }
 
-        if(item.ItemId === 1192 || item.ItemId === 114 || item.ItemId === 10 || item.ItemId === 1138 || item.ItemId === 88 || item.ItemId === 89)
-            console.log(item);
-
-        return item;
+        items.push(item);
     });
-}
 
+    return (recalculate) ? newItemArray(items) : items;
+}
 
 const hasRequiredItems = (itemIdArray, itemArray) => {
     return itemIdArray.every(id => {

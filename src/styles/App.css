@@ -2,13 +2,25 @@
   width: 40vw;
   overflow: hidden;
   position: absolute;
-  top: 10px;
-  left: 10px;
-  bottom: 10px
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .itemTable {
-  width: 50vw;
+  width: 40vw;
+  overflow: hidden;
   position: absolute;
   right: 10px;
+  padding-top: 10px;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
 }

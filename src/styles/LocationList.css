@@ -3,6 +3,11 @@
     width: 100%;
 }
 
+
+thead tr {
+    display: block;
+}
+
 .tableHeader {
     font-weight: bold;
     height: 3%;

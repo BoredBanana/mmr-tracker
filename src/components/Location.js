@@ -2,9 +2,6 @@ import React, { useContext } from 'react';
 import { ItemContext } from '../contexts/ItemContext';
 import { LocationContext } from '../contexts/LocationContext';
 
-import '../styles/Location.css';
-
-
 const Location = (props) => {
 
     const { locations, dispatchLocations } = useContext(LocationContext);

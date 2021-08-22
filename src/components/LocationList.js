@@ -5,9 +5,6 @@ import Location from './Location.js';
 // import helper array of area names in Majora's Mask
 import areas from '../util/areas.json';
 
-// import relative styles
-import '../styles/LocationList.css'
-
 function LocationList(props) {
 
     // region will hold an int representing the position of the 

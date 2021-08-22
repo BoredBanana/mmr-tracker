@@ -9,17 +9,18 @@ import ItemContextProvider from '../contexts/ItemContext.js';
 import LocationContextProvider from '../contexts/LocationContext.js';
 
 // styles
-import '../styles/App.css';
 
 const App = () => {
     return (
         <div onContextMenu={(e) => e.preventDefault()}>
             <LocationContextProvider>
                 <ItemContextProvider>
-                    <FileInput />
-                    {/* <div className="locationTable">
+                    <div className="navbar">
+                        <FileInput />
+                    </div>
+                    <div className="locationTable">
                         <LocationList/>
-                    </div> */}
+                    </div>
                     <div className="itemTable">
                         <ItemList />
                     </div>

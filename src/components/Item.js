@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { ItemContext } from '../contexts/ItemContext';
 
-import "../styles/Item.css"
-
 function Item(props) {
     const [image, setImage] = useState(null);
     const { items, dispatchItems } = useContext(ItemContext);
